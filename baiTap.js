@@ -13,14 +13,14 @@ function getResult(tenPhepTinh, soA, soB, callBack) {
     });
 }
 
-getResult("NHAN", 10, 8, (errorNhan, resultNhan) => {
-    if (errorNhan)
-        return console.log(errorNhan);
-    getResult("CONG", resultNhan, 5, (errorCong, resultCong) => {
-        if (errorCong) return console.log(errorNhan);
-        getResult("TRU", resultCong, 3, (errorTru, resultTru) => {
-            if (errorTru) return console.log(errorTru);
-            console.log(resultTru);
-        });
-    });
-});
+// getResult("NHAN", 10, 8, (errorNhan, resultNhan) => {
+//     if (errorNhan)
+//         return console.log(errorNhan);
+//     getResult("CONG", resultNhan, 5, (errorCong, resultCong) => {
+//         if (errorCong) return console.log(errorNhan);
+//         getResult("TRU", resultCong, 3, (errorTru, resultTru) => {
+//             if (errorTru) return console.log(errorTru);
+//             console.log(resultTru);
+//         });
+//     });
+// });

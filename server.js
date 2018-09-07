@@ -14,7 +14,7 @@ app.get('/tinh/:tenPhepTinh/:soA/:soB', (req, res) => {
     setTimeout(() => res.send(pt.getResult() + ''), 1000);
 });
 
-app.listen(3000, () => console.log("Server started !!"));
+app.listen(3000, () => console.log("Server started!!"));
 
 class PhepTinh {
     constructor(soA, soB, tenPhepTinh) {
